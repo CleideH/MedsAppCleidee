@@ -4,12 +4,12 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@null"
+        android:icon="@drawable/icon"
+        android:label="MedsAppCleide"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,12 +17,36 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".DoctorEdit"
+            android:icon="@drawable/login"
+            android:label="Doctor Edit" />
+        <activity
+            android:name=".DoctorAdd"
+            android:label="Doctor Add" />
+        <activity
             android:name=".DoctorList"
-            android:label="@string/title_activity_doctor_list"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".DoctorEdit" />
-        <activity android:name=".DoctorAdd" />
-        <activity android:name=".DoctorAdapter"></activity>
+            android:label="Doctors" />
+        <activity
+            android:name=".MainActivity" />
+        <activity
+            android:name=".UserAdd"
+            android:label="New User" />
+        <activity
+            android:name=".ProfileEdit"
+            android:label="Profile Edit" />
+        <activity
+            android:name=".MedicinesAdd"
+            android:label="Medicines Add" />
+        <activity
+            android:name=".MedicinesEdit"
+            android:label="MedicinesEdit" />
+        <activity
+            android:name=".MedicinesList"
+            android:label="Medicines List" />
+
+        <activity
+            android:name=".Call"
+            android:label="Call Doctor"></activity>
     </application>
 
 </manifest>
