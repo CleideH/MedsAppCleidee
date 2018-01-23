@@ -8,7 +8,11 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseUser;
+
 public class MainActivity extends AppCompatActivity {
+
+    private FirebaseUser firebaseUser;
 
 
 
@@ -46,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(it);
 
     }
+
 
 
 }

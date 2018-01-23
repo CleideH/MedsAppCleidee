@@ -37,6 +37,7 @@ public class ProfileEdit extends AppCompatActivity {
         user = FirebaseAuth.getInstance().getCurrentUser();
 
          */
+        /*
         EditText edName = findViewById(R.id.editName);
         edName.setText(profile.getName());
         EditText edDtBithd = findViewById(R.id.editDtBirh);
@@ -55,7 +56,7 @@ public class ProfileEdit extends AppCompatActivity {
         edWeight.setText(profile.getWeight());
         EditText edHeight = findViewById(R.id.editHeight);
         edHeight.setText(profile.getHeight());
-
+        */
 
     }
 

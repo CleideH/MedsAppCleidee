@@ -17,7 +17,7 @@
 
 
     <EditText
-        android:id="@+id/user"
+        android:id="@+id/email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
@@ -25,10 +25,10 @@
         android:layout_marginRight="40dp"
         android:layout_marginTop="40dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="textEmailAddress"
         android:textAlignment="center"
         android:textSize="16dp"
-        android:hint="User"/>
+        android:hint="Email Address"/>
 
     <EditText
         android:id="@+id/password"
@@ -50,7 +50,6 @@
         android:layout_marginRight="30dp"
         android:layout_marginTop="60dp"
         android:background="@drawable/background_login"
-        android:onClick="loginOnClick"
         android:text="Login" />
 
     <Button
@@ -60,7 +59,6 @@
         android:layout_height="wrap_content"
         android:text="Register now"
         android:textSize="10sp"
-        android:onClick="newAccount"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:layout_marginTop="30dp"
